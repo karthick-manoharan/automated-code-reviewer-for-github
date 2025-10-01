@@ -1,0 +1,15 @@
+name: 'LLM Code Reviewer'
+description: 'Reviews PR code using a Large Language Model'
+inputs:
+  github-token:
+    description: 'The GitHub token for authentication.'
+    required: true
+  gemini-api-key:
+    description: 'The API key for the Gemini LLM.'
+    required: true
+  prompt-file-path:
+    description: 'Path to the prompt file for the LLM.'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/main.js'
