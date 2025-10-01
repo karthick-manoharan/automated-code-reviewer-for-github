@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "isActive": true,
+      "roles": ["admin", "editor"]
+    },
+    {
+      "id": "user2",
+      "isActive": false,
+      "roles": ["viewer"]
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  }
+}
